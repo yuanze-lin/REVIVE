@@ -10,7 +10,7 @@
 
 ### Installation
 ```
-git clone https://github.com/yzleroy/REVIVE-NeurIPS_2022.git
+git clone https://github.com/yzleroy/REVIVE.git
 conda create --name revive python=3.7
 conda activate revive
 pip install -r requirements.txt
