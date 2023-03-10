@@ -1,0 +1,13 @@
+CUDA_VISIBLE_DEVICES=0 python test.py --eval_data processed_data/test.pkl \
+	--model_size large \
+	--per_gpu_batch_size 8 \
+	--num_workers 8 \
+	--box_number 36 \
+	--text_maxlength 256 \
+	--n_im_context 5 \
+	--n_ex_context 40 \
+	--name eval \
+	--model_path checkpoints/exp/checkpoint/best_dev/ \
+	--n_block 9 \
+	--n_tags 30 \
+        --write_results
