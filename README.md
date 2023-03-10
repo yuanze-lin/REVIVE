@@ -1,6 +1,6 @@
 # REVIVE: Regional Visual Representation Matters in Knowledge-Based Visual Question Answering (NeurIPS 2022)
 
-![REVIVE](https://github.com/yzleroy/REVIVE-NeurIPS_2022/blob/main/figure.png)
+![REVIVE](https://github.com/yzleroy/REVIVE/blob/main/figure.png)
 
 
 **REVIVE** is a method for knowledge-based VQA task, as described in ([link to paper](https://arxiv.org/abs/2206.01201)).
