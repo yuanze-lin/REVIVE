@@ -60,7 +60,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node
           --scheduler linear \
           --weight_decay 0.01 \
           --save_freq 2000 \
-          --eval_freq 1000 \
+          --eval_freq 500 \
           --print_freq 100 \
           --text_maxlength 256 \
           --seed 833 \
