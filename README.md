@@ -1,4 +1,4 @@
-# REVIVE: Regional Visual Representation Matters in Knowledge-Based Visual Question Answering (NeurIPS 2022)
+# REVIVE: Regional Visual Representation Matters in Knowledge-Based Visual Question Answering (NeurIPS 2022 Accepted)
 
 ![REVIVE](https://github.com/yzleroy/REVIVE/blob/main/figures/framework.png)
 
