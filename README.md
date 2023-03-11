@@ -48,7 +48,7 @@ The prediction results of **"single"** and **"ensemble"** versions are shared:
 
 |Model |Accuracy(%)|Download|
 |  ----  | ----  | ---- |  
-|REVIVE (Single)| 56.6 |todo|
+|REVIVE (Single)| 56.6 |[prediction_acc56.6.json](https://drive.google.com/file/d/1KjMa-XjWjLIwQBg6JhCoLUtJQ9rIMON-/view?usp=sharing)|
 |REVIVE (Ensemble)| 58.1 |[prediction_acc58.1.json](https://drive.google.com/file/d/1rvIP74bfGP5aLr9x2yMn03_f0KrnG0OH/view?usp=sharing)|
 
 
