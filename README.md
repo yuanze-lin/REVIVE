@@ -109,7 +109,7 @@ If your prediction json file is named as: "prediction.json".
 Run the following command to start evaluation with json files:
 ```
 python leaderboard_evaluation.py --pred_path prediction.json \
-          --gt_path mscoco_val2014_annotations.json
+          --gt_path eval/mscoco_val2014_annotations.json
 ```
 
 ## Citation
