@@ -8,6 +8,17 @@
 
 Please kindly give us a <img src="https://github.com/yzleroy/REVIVE/blob/main/figures/3.png" width="32" height="32">, if you think our project is helpful for your research.
 
+## Citation
+
+```
+@article{lin2022revive,
+  title={Revive: Regional visual representation matters in knowledge-based visual question answering},
+  author={Lin, Yuanze and Xie, Yujia and Chen, Dongdong and Xu, Yichong and Zhu, Chenguang and Yuan, Lu},
+  journal={arXiv preprint arXiv:2206.01201},
+  year={2022}
+}
+```
+
 ## Getting Started
 
 ### Installation
@@ -124,17 +135,6 @@ python leaderboard_evaluation.py --pred_path prediction.json \
 
 ![visualization](https://github.com/yzleroy/REVIVE/blob/main/figures/2.png)
 
-## Citation
-Please cite our paper if you find our code help your research!
-
-```
-@article{lin2022revive,
-  title={Revive: Regional visual representation matters in knowledge-based visual question answering},
-  author={Lin, Yuanze and Xie, Yujia and Chen, Dongdong and Xu, Yichong and Zhu, Chenguang and Yuan, Lu},
-  journal={arXiv preprint arXiv:2206.01201},
-  year={2022}
-}
-```
 
 ## Acknowledgements
 Our code is built on [FiD](https://github.com/facebookresearch/FiD) which is under the [LICENSE](https://github.com/facebookresearch/FiD/blob/main/LICENSE).
