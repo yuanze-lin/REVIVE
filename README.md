@@ -103,6 +103,13 @@ CUDA_VISIBLE_DEVICES=0 python test.py --eval_data processed_data/test.pkl \
           --write_results
 ```
 
+### Test with json file
+If your prediction json is named as: "prediction.json"
+Run the following command to start evaluation with json files:
+```
+python leaderboard_evaluation.py --pred_path prediction.json --gt_path mscoco_val2014_annotations.json
+```
+
 ## Citation
 Please cite our paper if you find our code help your research!
 
