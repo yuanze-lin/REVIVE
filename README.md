@@ -107,7 +107,8 @@ CUDA_VISIBLE_DEVICES=0 python test.py --eval_data processed_data/test.pkl \
 If your prediction json is named as: "prediction.json"
 Run the following command to start evaluation with json files:
 ```
-python leaderboard_evaluation.py --pred_path prediction.json --gt_path mscoco_val2014_annotations.json
+python leaderboard_evaluation.py --pred_path prediction.json \
+          --gt_path mscoco_val2014_annotations.json
 ```
 
 ## Citation
