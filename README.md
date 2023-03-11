@@ -41,7 +41,8 @@ REVIVE
 |REVIVE (Single)|large size and trained with visual features, explicit and implicit knowledge| 56.6 |todo|[run.log](https://drive.google.com/file/d/1JaSigxV7UoVN5GvYZe0qdyfzLIczTmo7/view?usp=sharing)|
 
 As for **model ensembling**, you can train three models with different seeds, and for each sample, 
-you can get the final result with the **highest occurence frequency** among the three models' predictions.
+you can get the final result with the **highest occurence frequency** among the three models' predictions,
+please refer to **ensemble.py**.
 
 ### Prediction results
 The prediction results of **"single"** and **"ensemble"** versions are shared:
