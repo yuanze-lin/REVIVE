@@ -114,7 +114,7 @@ python leaderboard_evaluation.py --pred_path prediction.json \
           --gt_path eval/mscoco_val2014_annotations.json
 ```
 
-## Results
+## Experimental Results
 
 ### Comparison with previous methods
 
