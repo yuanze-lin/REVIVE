@@ -36,9 +36,9 @@ REVIVE
 ```
 
 ### Pre-trained model
-|Model |Description|Accuracy(%)|Download|
-|  ----  | ----  | ----  | ---- |  
-|REVIVE (Single)|large size and trained with visual features, explicit and implicit knowledge| 56.6 |todo|
+|Model |Description|Accuracy(%)|Weight|Log
+|  ----  | ----  | ----  | ---- | ---- | 
+|REVIVE (Single)|large size and trained with visual features, explicit and implicit knowledge| 56.6 |todo|todo|
 
 As for **model ensembling**, you can train three models with different seeds, and for each sample, 
 you can get the final result with the **highest occurence frequency** among the three models' predictions.
