@@ -85,7 +85,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node
 ```
 The whole training time is about 18 hours with 4 X A5000 GPUs.
 
-### Test the model
+### Test the trained model
 Run the following command to start evaluation:
 ```
 CUDA_VISIBLE_DEVICES=0 python test.py --eval_data processed_data/test.pkl \
