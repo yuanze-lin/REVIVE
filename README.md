@@ -104,7 +104,7 @@ CUDA_VISIBLE_DEVICES=0 python test.py --eval_data processed_data/test.pkl \
 ```
 
 ### Test with json file
-If your prediction json is named as: "prediction.json".
+If your prediction json file is named as: "prediction.json".
 
 Run the following command to start evaluation with json files:
 ```
