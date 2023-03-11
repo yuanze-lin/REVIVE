@@ -78,7 +78,7 @@ def load_gt(file_path):
 if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument("--pred_path", default="prediction_acc56.6.json", type=str, help="predicion file path")
-    parser.add_argument("--gt_path", default="mscoco_val2014_annotations.json", type=str, help="gt file path")
+    parser.add_argument("--gt_path", default="eval/mscoco_val2014_annotations.json", type=str, help="gt file path")
     args = parser.parse_args()
 
     pred_path, gt_path = args.pred_path, args.gt_path
