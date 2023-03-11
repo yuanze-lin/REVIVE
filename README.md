@@ -100,6 +100,7 @@ CUDA_VISIBLE_DEVICES=0 python test.py --eval_data processed_data/test.pkl \
           --n_tags 30 \
           --write_results
 ```
+The whole training time is about 18 hours with 4 X A5000 GPUs.
 
 ## Citation
 Please cite our paper if you find these codes help you!
