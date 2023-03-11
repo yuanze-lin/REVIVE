@@ -103,7 +103,7 @@ CUDA_VISIBLE_DEVICES=0 python test.py --eval_data processed_data/test.pkl \
 ```
 
 ## Citation
-Please cite our paper if you find these codes help you!
+Please cite our paper if you find our code help your research!
 
 ```
 @article{lin2022revive,
