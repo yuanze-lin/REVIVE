@@ -1,9 +1,8 @@
 import json
 
-# prediction1, prediction2, prediction3 are 
-# the preditions of three different models 
-# trained by you. You can run test code to 
-# obtain prediction.json file.
+# prediction1, prediction2, prediction3 are the preditions 
+# of three different models trained by you using different seeds.
+# You can run test code to obtain prediction.json file.
 
 x1 = json.load(open('prediction1.json'))
 x2 = json.load(open('prediction2.json'))
