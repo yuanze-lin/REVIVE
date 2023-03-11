@@ -43,6 +43,12 @@ REVIVE
 As for **model ensembling**, you can train three models with different seeds, and for each sample, 
 you can get the final result with the **highest occurence frequency** among the three models' predictions.
 
+### Prediction results
+|Model |Accuracy(%)|Download|
+|  ----  | ----  | ---- |  
+|REVIVE (Single)| 56.6 |todo|
+|REVIVE (Ensemble)| 58.1 |![prediction_acc58.1.json](https://drive.google.com/file/d/1rvIP74bfGP5aLr9x2yMn03_f0KrnG0OH/view?usp=sharing)|
+
 
 ### Train the model
 Run the following command to start training (the A5000 training example):
