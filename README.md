@@ -112,6 +112,16 @@ python leaderboard_evaluation.py --pred_path prediction.json \
           --gt_path eval/mscoco_val2014_annotations.json
 ```
 
+## Results
+
+### Comparison with previous methods
+
+![comparison](https://github.com/yzleroy/REVIVE/blob/main/figures/1.png)
+
+### Example visualization
+
+![visualization](https://github.com/yzleroy/REVIVE/blob/main/figures/2.png)
+
 ## Citation
 Please cite our paper if you find our code help your research!
 
