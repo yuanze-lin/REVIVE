@@ -114,10 +114,10 @@ CUDA_VISIBLE_DEVICES=0 python test.py --eval_data processed_data/test.pkl \
           --n_block 9 \
           --n_tags 30 \
           --write_results
-          
-It will generate the final results as "prediction.json" under the defined checkpoint directory path.
-
 ```
+          
+It will generate the final results as "prediction.json" under the defined
+checkpoint directory path.
 
 ### Test with json file
 If your prediction json file is named as: "prediction.json".
