@@ -139,6 +139,8 @@ python leaderboard_evaluation.py --pred_path prediction.json \
 
 ![visualization](https://github.com/yzleroy/REVIVE/blob/main/figures/2.png)
 
+## Contact
+If I cannot timely respond to your questions, you can send the email to ##yuanze@uw.edu##
 
 ## Acknowledgements
 Our code is built on [FiD](https://github.com/facebookresearch/FiD) which is under the [LICENSE](https://github.com/facebookresearch/FiD/blob/main/LICENSE).
