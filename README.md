@@ -138,3 +138,5 @@ python leaderboard_evaluation.py --pred_path prediction.json \
 
 ## Acknowledgements
 Our code is built on [FiD](https://github.com/facebookresearch/FiD) which is under the [LICENSE](https://github.com/facebookresearch/FiD/blob/main/LICENSE).
+
+We also appreciate the suggestions from Liangke, who is the author of KAT (https://github.com/guilk/KAT).
