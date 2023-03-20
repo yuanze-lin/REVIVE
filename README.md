@@ -24,7 +24,7 @@ If you find our project is helpful for your research, please kindly give us a :s
 ## Getting Started
 
 ### Installation
-To establish the environment run this code in the shell:
+To establish the environment, just run this code in the shell:
 ```
 git clone https://github.com/yzleroy/REVIVE.git
 conda create --name revive python=3.7
