@@ -24,12 +24,14 @@ If you find our project is helpful for your research, please kindly give us a :s
 ## Getting Started
 
 ### Installation
+To establish the environment run this code in the shell:
 ```
 git clone https://github.com/yzleroy/REVIVE.git
 conda create --name revive python=3.7
 conda activate revive
 pip install -r requirements.txt
 ```
+That will create the environment ```revive``` we used.
 ### Download data
 We provide the pre-processed data, it contains visual features,  implicit/explicit knowledge, 
 bounding boxes, caption, tags for each sample.
