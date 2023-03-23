@@ -29,6 +29,7 @@ To establish the environment, just run this code in the shell:
 git clone https://github.com/yzleroy/REVIVE.git
 cd REVIVE
 conda env create -f requirements.yaml
+conda activate revive
 ```
 That will create the environment ```revive``` we used.
 ### Download data
