@@ -27,9 +27,8 @@ If you find our project is helpful for your research, please kindly give us a :s
 To establish the environment, just run this code in the shell:
 ```
 git clone https://github.com/yzleroy/REVIVE.git
-conda create --name revive python=3.7
-conda activate revive
-pip install -r requirements.txt
+cd REVIVE
+conda env create -f requirements.yaml
 ```
 That will create the environment ```revive``` we used.
 ### Download data
@@ -38,7 +37,6 @@ bounding boxes, caption, tags for each sample.
 
 Download the pre-processed data, which contains two files ("train.pkl" and "test.pkl").
 ```
-cd REVIVE
 gdown https://drive.google.com/uc?id=1kP_xeuUCAS5wqWQwuwVItDgRTAbEjUeM&export=download
 unzip processed_data.zip
 ```
