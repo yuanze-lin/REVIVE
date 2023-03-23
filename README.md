@@ -38,6 +38,7 @@ bounding boxes, caption, tags for each sample.
 
 Download the pre-processed data, which contains two files ("train.pkl" and "test.pkl").
 ```
+pip install gdown
 gdown https://drive.google.com/uc?id=1kP_xeuUCAS5wqWQwuwVItDgRTAbEjUeM&export=download
 unzip processed_data.zip
 ```
