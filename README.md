@@ -148,5 +148,3 @@ If I cannot timely respond to your questions, you can send the email to yuanze@u
 
 ## Acknowledgements
 Our code is built on [FiD](https://github.com/facebookresearch/FiD) which is under the [LICENSE](https://github.com/facebookresearch/FiD/blob/main/LICENSE).
-
-We also appreciate the suggestions from Liangke, who is the author of KAT (https://github.com/guilk/KAT).
