@@ -51,7 +51,7 @@ REVIVE
 │   ├── test.pkl
 └── ...
 ```
-Note that in "train.pkl" and "test.pkl" data, the meaning of the keys are: 
+Note that in "train.pkl" and "test.pkl" data, the meanings of the keys are explained as following: 
 
 "im_ctxs": implicit knowledge, each one among it means one implicit knowledge sample.
 
