@@ -53,15 +53,11 @@ REVIVE
 ```
 Note that in "train.pkl" and "test.pkl" data, the meanings of the keys are explained as following: 
 
-"im_ctxs": implicit knowledge, each one among it means one implicit knowledge sample.
-
-"ex_ctxs": explicit knowledge, each one among it means one explicit knowledge sample.
-
-"boxes": detected bounding boxes from the object detector.
-
-"vis_feat": visual features which correspond to the detected bounding boxes.
-
-"tags": retrieved tags according to CLIP similarity.
+"**im_ctxs**": implicit knowledge, each one among it means one implicit knowledge sample.  
+"**ex_ctxs**": explicit knowledge, each one among it means one explicit knowledge sample.  
+"**boxes**": detected bounding boxes from the object detector.  
+"**vis_feat**": visual features which correspond to the detected bounding boxes.  
+"**tags**": retrieved tags according to CLIP similarity.  
 
 ### Pre-trained model
 |Model |Description|Accuracy(%)|Weight|Log
