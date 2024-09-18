@@ -85,7 +85,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node
           --train_data processed_data/train.pkl \
           --eval_data processed_data/test.pkl \
           --use_checkpoint \
-          --lr 0.000075 \
+          --lr 0.00008 \
           --model_size large \
           --num_workers 16 \
           --optim adamw \
